@@ -1,0 +1,32 @@
+.card {
+  display: flex;
+  justify-content: space-between;
+  border: none;
+  padding: 20px;
+  color: #566465;
+  background-color: white;
+  width: 250px;
+  height: 100px;
+  margin-right: 50px;
+}
+.active {
+  color: white;
+  background-color: #4052b6;
+}
+.card-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  text-align: left;
+}
+.card-title {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+}
+.title-data {
+  padding-top: 15px;
+  font-size: 1.2rem;
+}
+.card-progress {
+  width: 200%;
+}
